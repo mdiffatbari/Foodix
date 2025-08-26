@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Grilled Cake",
+    "description": "Juicy grilled steak seasoned with fresh herbs and spices.",
+    "price": 18.99,
+    "image": "https://i.ibb.co.com/pvGqrMjd/pexels-ash-craig-122861-376464.jpg",
+    "category": "Dessert",
+    "calories": 450,
+    "prepTime": "15 min"
+  },
+  {
+    "id": 2,
+    "name": "Chumao Platter",
+    "description": "Fresh sushi rolls with salmon, tuna, and avocado.",
+    "price": 22.50,
+    "image": "https://i.ibb.co.com/Xrj7m0pM/pexels-jess-vide-5507640.jpg",
+    "category": "Seafood",
+    "calories": 350,
+    "prepTime": "20 min"
+  },
+  {
+    "id": 3,
+    "name": "Italian Pasta",
+    "description": "Authentic Italian pasta tossed in rich tomato sauce.",
+    "price": 14.75,
+    "image": "https://i.ibb.co.com/3512msrP/pexels-max-griss-16866522-7452589.jpg",
+    "category": "Main Course",
+    "calories": 550,
+    "prepTime": "25 min"
+  },
+  {
+    "id": 4,
+    "name": "Fish Salad",
+    "description": "Healthy garden salad with lettuce, cucumbers, and cherry tomatoes.",
+    "price": 9.99,
+    "image": "https://i.ibb.co.com/gLTRdNJ6/pexels-daniela-elena-tentis-118658-262959.jpg",
+    "category": "Salad",
+    "calories": 220,
+    "prepTime": "10 min"
+  },
+  {
+    "id": 5,
+    "name": "Fried rice with egg",
+    "description": "Classic beef burger with cheese, lettuce, and special sauce.",
+    "price": 12.50,
+    "image": "https://i.ibb.co.com/tTN6CThg/pexels-lum3n-44775-1410236.jpg",
+    "category": "Main Course",
+    "calories": 480,
+    "prepTime": "20 min"
+  },
+  {
+    "id": 6,
+    "name": "Beef Platter",
+    "description": "A mix of fresh shrimp, calamari, and grilled fish.",
+    "price": 25.00,
+    "image": "https://i.ibb.co.com/k6r2y8wP/pexels-vanmalidate-769289.jpg",
+    "category": "Seafood",
+    "calories": 600,
+    "prepTime": "30 min"
+  }
+]
