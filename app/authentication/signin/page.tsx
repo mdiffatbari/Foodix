@@ -69,7 +69,7 @@ const Page = () => {
         {/* Don't have account */}
         <p className="text-center text-gray-600 text-sm mt-6">
           Don’t have an account?{" "}
-          <Link href="/signup" className="text-red-600 font-semibold hover:underline">
+          <Link href="/authentication/signup" className="text-red-600 font-semibold hover:underline">
             Sign Up
           </Link>
         </p>
