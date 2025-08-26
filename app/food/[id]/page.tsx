@@ -1,17 +1,20 @@
 "use client";
 
-import React from "react";
+import React, { use } from "react";
 import products from "../../../public/data/products.json";
 import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
 
 interface FoodProps {
-  params: { id: string }; // no Promise
+  params: Promise<{ id: string }>;
 }
 
 const FoodDetails = ({ params }: FoodProps) => {
   const router = useRouter();
-  const foodId = parseInt(params.id);
+
+  // ✅ unwrap params with React.use()
+  const { id } = use(params);
+  const foodId = parseInt(id);
   const food = products.find((item) => item.id === foodId);
 
   if (!food) {
@@ -29,7 +32,7 @@ const FoodDetails = ({ params }: FoodProps) => {
     localStorage.setItem("cart", JSON.stringify(cart));
 
     Swal.fire({
-      title: "✅ Added to Cart!",
+      title: " Added to Cart!",
       text: `${food.name} has been added successfully.`,
       icon: "success",
       confirmButtonText: "Go to Dashboard",
