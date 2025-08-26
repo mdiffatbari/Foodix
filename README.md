@@ -29,3 +29,19 @@ It showcases a restaurant’s menu, about page, contact form, and product detail
 ---
 
 ## 📂 Project Structure
+
+foodix/
+├── app/
+│ ├── about/ # About page
+│ ├── contact/ # Contact page
+│ ├── food/ # Food listing and dynamic details
+│ │ └── [id]/ # Food details page
+│ ├── components/ # Navbar, Footer, Banner, etc.
+│ └── page.tsx # Home page
+├── public/
+│ └── data/
+│ └── products.json # Food product data
+├── styles/ # Global styles
+├── package.json
+├── tailwind.config.js
+└── README.md
