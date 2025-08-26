@@ -30,7 +30,7 @@ const NavBar: React.FC = () => {
               Contact
             </Link>
             <Link
-              href="/signup"
+              href="/authentication/signup"
               className="ml-2 rounded-lg bg-red-600 px-4 py-2 text-white hover:bg-red-700 transition"
             >
               Sign Up
