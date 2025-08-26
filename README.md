@@ -21,10 +21,11 @@ It showcases a restaurant’s menu, about page, contact form, and product detail
 
 ## Tech Stack
 - **Next.js 15** (App Router)
-- **React 19**
+- **React**
 - **TypeScript**
-- **Tailwind CSS 4**
+- **Tailwind CSS**
 - **React Icons**
+- **Sweet alert 2**
 
 ---
 
