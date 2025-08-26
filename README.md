@@ -1,4 +1,4 @@
-# 🍴 Foodix - Restaurant Website
+#  Foodix - Restaurant Website
 
 Live Link: https://foodix-dusky.vercel.app/
 
@@ -7,7 +7,7 @@ It showcases a restaurant’s menu, about page, contact form, and product detail
 
 ---
 
-## 🚀 Features
+##  Features
 - Responsive **Navbar** and **Footer**
 - Beautiful **Hero/Banner** section
 - Dynamic **Food menu cards** with images, names, prices, and details
@@ -19,7 +19,7 @@ It showcases a restaurant’s menu, about page, contact form, and product detail
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Next.js 15** (App Router)
 - **React 19**
 - **TypeScript**
@@ -27,6 +27,28 @@ It showcases a restaurant’s menu, about page, contact form, and product detail
 - **React Icons**
 
 ---
+
+
+---
+
+##  Setup & Installation Instructions
+
+1. Clone the Repository
+```bash
+git clone https://github.com/mdiffatbari/Foodix.git
+cd foodix
+
+2. Install Dependencies
+npm install
+
+3. Run Development Server
+npm run dev
+
+4. Open your browser and navigate to:
+http://localhost:3000
+
+
+
 
 ## 📂 Project Structure
 
